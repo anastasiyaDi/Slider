@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completed Projects</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="projects-section">
+        <div class="content-wrapper">
+            <div class="text-content">
+                <div class="header-block">
+                    <h1 class="section-title">COMPLETED<br>PROJECTS</h1>
+                    <p class="section-description">
+                        Only a small part of the work performed by our company is presented on the site.
+                        For 14 years on in the construction market we have made happy more than 1000 families
+                    </p>
+                </div>
+
+                <div class="project-info">
+                    <div class="info-column">
+                        <div class="info-item">
+                            <h3 class="info-title">CITY:</h3>
+                            <p class="info-value" id="city">Rostov-on-Don<br>LCD admiral</p>
+                        </div>
+                        <div class="info-item">
+                            <h3 class="info-title">APARTMENT AREA:</h3>
+                            <p class="info-value" id="area">81 m2</p>
+                        </div>
+                    </div>
+                    <div class="info-column">
+                        <div class="info-item">
+                            <h3 class="info-title">REPAIR TIME:</h3>
+                            <p class="info-value" id="time">3.5 months</p>
+                        </div>
+                        <div class="info-item">
+                            <h3 class="info-title">REPAIR COST:</h3>
+                            <p class="info-value" id="cost">Upon request</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <div class="project-links">
+                        <a href="#" class="project-link active" data-index="0">ROSTOV-ON-DON, ADMIRAL</a>
+                        <a href="#" class="project-link" data-index="1">SOCHI THIEVES</a>
+                        <a href="#" class="project-link" data-index="2">ROSTOV-ON-DON PATRIOTIC</a>
+                    </div>
+
+                    <div class="slider-navigation">
+                        <button class="slider-arrow prev-arrow" aria-label="Previous project">
+                            <svg width="8" height="14" viewBox="0 0 8 14" fill="none">
+                                <path d="M7 1L1 7L7 13" stroke="black" stroke-width="2"/>
+                            </svg>
+                        </button>
+                        <div class="slider-dots">
+                            <button class="dot active" data-index="0" aria-label="Show project 1"></button>
+                            <button class="dot" data-index="1" aria-label="Show project 2"></button>
+                            <button class="dot" data-index="2" aria-label="Show project 3"></button>
+                        </div>
+                        <button class="slider-arrow next-arrow" aria-label="Next project">
+                            <svg width="8" height="14" viewBox="0 0 8 14" fill="none">
+                                <path d="M1 1L7 7L1 13" stroke="black" stroke-width="2"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-content">
+                <div class="project-image-container">
+                    <img src="assets/project1.jpg" alt="Rostov-on-Don Admiral project" class="project-image active">
+                    <img src="assets/project2.jpg" alt="Sochi Thieves project" class="project-image">
+                    <img src="assets/project3.jpg" alt="Rostov-on-Don Patriotic project" class="project-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
